@@ -59,6 +59,7 @@ h1 {
     transition: 0.5s;
     margin-right: 20px;
 
+
 }
   
 #btn-stop {
@@ -68,12 +69,26 @@ h1 {
     width: 80px;
     margin-right: 20px;
 
-
 }
-  
+
 #btn-reset {
     background-color: #c91400;
     border-radius: 20%;
     height: 40px;
     width: 80px;
+}
+
+/* fade color on pointing cursor to button.......... */
+
+#btn-start:hover{
+    opacity: 0.8;
+}
+
+#btn-stop:hover{
+    opacity: 0.8;
+}
+
+
+#btn-reset:hover{
+    opacity: 0.8;
 }
